@@ -1,0 +1,177 @@
+/************BODY***************/
+
+body {
+	padding:0;
+	margin:0;
+	width:100%;
+	background-color: #F3F3F3;
+}
+
+/************LINKS****************/
+
+a {
+	text-decoration: none;
+	color:#000;
+	font-family: arial;
+	-webkit-transition: all .15s ease;
+	   -moz-transition: all .15s ease;
+	    -ms-transition: all .15s ease;
+	     -o-transition: all .15s ease;
+	        transition: all .15s ease;
+	font-size: 13px;
+	display: block
+}
+
+a:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+a:active {
+	text-decoration: none;
+	color: orange;	
+}
+
+
+/*********NAVIGATION BAR*******************/
+
+nav {
+	width:100%;
+	position: absolute;
+	top:0;
+	height: 50px;
+	margin:0;
+	background:#ddd;
+	overflow: hidden;
+}
+
+nav ul {
+	display:block;
+	float:right;
+	height:100%;
+	margin-right: 5px;
+}
+
+nav ul li {
+	list-style-type: none;
+	float:left;
+	margin: auto 5px;
+}
+.nav {
+	margin:0 10px;
+}
+
+#grid_icon {
+	background: url('../assets/grid.png');
+	height:15px;
+	width:15px;
+	display: block;
+	margin-top: 0;
+	-webkit-transition: all .15s ease;
+	-moz-transition: all .15s ease;
+	-ms-transition: all .15s ease;
+	-o-transition: all .15s ease;
+	transition: all .15s ease;
+}
+
+#grid_icon:hover {
+	background-image: url('../assets/grid_hover.png');
+}
+
+#sign_in {
+	padding:5px;
+	background-color: #166BEC;
+	color:#fff;
+	margin-top: -4px;
+}
+
+#sign_in:hover {
+	color:orange;
+}
+
+#sign_in:active {
+	color:orange;
+}
+
+
+/**********BODY*******************/
+
+
+
+#search {
+	margin:10% auto 15% auto;
+
+}
+
+.logo {
+	background: url('../assets/google_logo2.png') no-repeat;
+	display:block;
+	width:550px;
+	min-width: 50%;
+	height: 220px;
+	min-height: 50%;
+	margin:auto;
+}
+
+form {
+	margin:auto;
+	text-align: center;
+}
+
+#field {
+	max-width: 200px;
+	min-width: 70%;
+	height: 30px;
+	margin:auto;
+	font-size: 18px;
+}
+
+.button {
+	padding:10px;
+	margin:10px;
+	font-weight: bold;
+}
+
+.button a {
+	display:block;
+}
+
+/*************FOOTER***************/
+
+footer {
+	background: #ddd;
+	float:left;
+	height:40px;
+	width: 100%;
+	padding:0;
+	margin:0;
+	position: absolute;
+	bottom:0;
+	overflow: hidden;
+}
+
+#left_footer {
+	float:left;
+	padding:0;
+}
+
+#left_footer li {
+	list-style-type: none;
+	float:left;
+	margin:auto 15px;
+	padding-left:0;
+}
+
+#right_footer {
+	float:right;
+	padding:0;
+}
+
+#right_footer li {
+	list-style-type: none;
+	float:left;
+	margin:auto 15px;
+	padding:0;
+}
+
+
